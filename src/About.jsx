@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div>
       <h1>About</h1>
-      <p>More information about PlaylistRadar.</p>
+      <p>More information about PlaylistRadar. Test Test</p>
     </div>
   );
 }
