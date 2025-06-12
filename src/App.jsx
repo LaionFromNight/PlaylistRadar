@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink, Routes, Route } from 'react-router-dom';
 import MainPage from './MainPage.jsx';
-import Search from './Search.jsx';
+import SearchPage from './SearchPage.jsx';
 import HowToStart from './HowToStart.jsx';
 import About from './About.jsx';
 import Contact from './Contact.jsx';
@@ -58,7 +58,7 @@ export default function App() {
       <div className="content">
         <Routes>
           <Route path="/" element={<MainPage />} />
-          <Route path="/search" element={<Search />} />
+          <Route path="/search" element={<SearchPage />} />
           <Route path="/how-to-start" element={<HowToStart />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
