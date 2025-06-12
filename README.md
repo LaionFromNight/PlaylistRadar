@@ -82,3 +82,9 @@ Your site will be live at:
 ├── package.json         # Dependencies and scripts
 └── README.md            # Project documentation
 ```
+
+
+---
+## 📜 License
+This project is licensed under the **Creative Commons BY-NC-ND 4.0 License**  
+with additional restrictions. See the [LICENSE](./LICENSE) file for details.
