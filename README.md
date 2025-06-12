@@ -29,8 +29,17 @@ cd PlaylistRadar
 ```bash
 npm install
 ```
+### 3. Install local SSL certificate
 
-### 3. Start the development server
+```bash
+brew install mkcert
+brew install nss    # (optional, for Firefox)
+mkcert -install
+mkcert localhost
+```
+move them into certs folder
+
+### 4. Start the development server
 
 ```bash
 npm run dev
@@ -38,6 +47,8 @@ npm run dev
 
 Then open:
 👉 https://localhost:5173/PlaylistRadar
+
+
 
 
 🌐 Deploy to GitHub Pages
