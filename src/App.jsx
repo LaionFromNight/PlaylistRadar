@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink, Routes, Route } from 'react-router-dom';
-import Main from './Main.jsx';
+import MainPage from './MainPage.jsx';
 import Search from './Search.jsx';
 import HowToStart from './HowToStart.jsx';
 import About from './About.jsx';
@@ -57,7 +57,7 @@ export default function App() {
       </aside>
       <div className="content">
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/" element={<MainPage />} />
           <Route path="/search" element={<Search />} />
           <Route path="/how-to-start" element={<HowToStart />} />
           <Route path="/about" element={<About />} />
