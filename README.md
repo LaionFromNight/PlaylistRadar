@@ -83,6 +83,10 @@ Your site will be live at:
 └── README.md            # Project documentation
 ```
 
+To clean remote branches
+```bash
+git fetch --all --prune
+```
 
 ---
 ## 📜 License
